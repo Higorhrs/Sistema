@@ -21,3 +21,35 @@ int main(){
   scanf("%d", &adicionar_custo_ou_nao);
   adicionar_custo_ou_nao;
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  // Cálculo do lucro - Parte 6
+float lucro_produtos;
+  lucro_produtos = (precos_venda - precos_compra) * quantidades;
+  lucro_total_produtos += lucro_produtos;
+
+  printf("O lucro sobre a venda do produto %d é: R$ %.2f\n", i + 1, lucro_produtos);
+}
+
+float lucro_liquido = lucro_total_produtos - total_gastos_fixos;
+
+printf("\nLucro total dos produtos vendidos: R$ %.2f\n", lucro_total_produtos);
+printf("Gastos fixos: R$ %.2f\n", total_gastos_fixos);
+printf("Lucro líquido: R$ %.2f\n", lucro_liquido);
+    
+  return 0;
+  }
