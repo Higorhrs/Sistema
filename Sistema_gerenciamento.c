@@ -37,12 +37,21 @@ int main(){
   
   
   
-  
-  
-  
-  
-  
-  
+  //Somando custos adicionais/
+  total_gastos_fixos += preco_adicional;
+  printf("\nDeseja adicionar outro custo?\nDigite (1) para adicionar ou (2) para prosseguir:\n");
+  scanf("%d", &adicionar_custo_ou_nao);
+  }
+  }		
+  /* Imprinmento para o usuário o valor total*/
+  printf("\n\nTotal de gastos fixos R$:%.2f\n", total_gastos_fixos);
+  int numFuncionarios;
+  //quantos funcionarios tem a empresa
+  printf("Quantos funcionários a empresa possui?(inclui você proprio): ");
+  scanf("%d", &numFuncionarios);
+  //solicita o numero de salarios da empresa
+  float salarios[numFuncionarios];
+  float somaSalarios = 0.0;
   
   
   
