@@ -4,6 +4,8 @@ int main() {
     // Olá, vamos começar nosso projeto!
 
     // Criando a parte de gastos fixos e variáveis
+    
+    printf("SISTEMA DE GERENCIAMENTO\n\n");
     float agua, energia, telefone, internet, aluguel, total_gastos_fixos = 0, preco_adicional;
     char adicional[50] = "";
     int adicionar_custo_ou_nao;
@@ -43,11 +45,11 @@ int main() {
     }
 
     // Imprimindo para o usuário o valor total de gastos fixos
-    printf("\n\nTotal de gastos fixos R$: %.2f\n", total_gastos_fixos);
+    printf("\n\nTotal de gastos fixos R$: %.2f\n\n", total_gastos_fixos);
 
     // Quantos funcionários tem a empresa
     int numFuncionarios;
-    printf("Quantos funcionarios a empresa possui?(inclui voce proprio): ");
+    printf("Quantos funcionarios a empresa possui?(inclui voce proprio): \n");
     scanf("%d", &numFuncionarios);
 
     // Solicita o numero de salarios da empresa
